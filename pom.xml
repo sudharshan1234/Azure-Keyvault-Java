@@ -9,6 +9,32 @@
 
   <name>azurekeyvaultconnection</name>
 
+  <repositories>
+    <repository>
+      <id>MavenFeedForKeyVault</id>
+      <url>https://pkgs.dev.azure.com/sudarchakra2000/AzureKeyVaultConnector/_packaging/MavenFeedForKeyVault/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>MavenFeedForKeyVault</id>
+      <url>https://pkgs.dev.azure.com/sudarchakra2000/AzureKeyVaultConnector/_packaging/MavenFeedForKeyVault/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
